@@ -26,6 +26,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Sirius
 #define PRODUCT         UniGo66
 #define DESCRIPTION     UniGo66 Wireless Split keyboard
+#define PREVENT_STUCK_MODIFIERS
+
+// Mouse config
+#define MOUSEKEY_DELAY             150
+#define MOUSEKEY_INTERVAL          50
+#define MOUSEKEY_MAX_SPEED         20
+#define MOUSEKEY_TIME_TO_MAX       10
+#define MOUSEKEY_WHEEL_MAX_SPEED   15
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
 
 /* size of virtual matrix */
 #define MATRIX_ROWS 16
